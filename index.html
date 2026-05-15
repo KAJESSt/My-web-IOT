@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Tugas | Yasmin Amreiza</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      /* Background gradasi dari hijau gelap ke merah gelap */
+      background: linear-gradient(135deg, #14532d 0%, #7f1d1d 100%);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: rgba(30, 41, 59, 0.85); /* Dibuat sedikit transparan agar gradasi terlihat */
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px); /* Efek kaca */
+    }
+    h1 {
+      color: #4ade80; /* Warna hijau terang untuk judul utama */
+      margin-bottom: 5px;
+    }
+    h2 {
+      font-size: 1.2em;
+      color: #f8fafc;
+      margin-top: 0;
+      margin-bottom: 30px;
+      font-weight: normal;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      background: #ef4444; /* Tombol pertama warna merah */
+      color: white;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-sizing: border-box;
+      transition: background 0.3s, transform 0.1s;
+    }
+    .btn:hover {
+      background: #dc2626; /* Merah gelap saat di-hover */
+      transform: translateY(-2px);
+    }
+    .btn-dark {
+      background: #10b981; /* Tombol kedua warna hijau */
+    }
+    .btn-dark:hover {
+      background: #059669; /* Hijau gelap saat di-hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Portal Praktikum 13</h1>
+    <h2>Yasmin Amreiza</h2>
+    <a href="akt1/" class="btn"> Buka Tugas 1 (Web Profil)</a>
+    <a href="akt2/" class="btn btn-dark"> Buka Tugas 2 (IoT Dashboard)</a>
+  </div>
+</body>
+</html>
